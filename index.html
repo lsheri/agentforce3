@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgentForce AI Discovery Tool</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #282c34;
+        color: white;
+      }
+      #root:empty + #fallback {
+        display: block;
+      }
+      #fallback {
+        display: none;
+        text-align: center;
+      }
+      .loader {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #3498db;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 20px auto;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-D0KaBJ9U.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DR7otvYn.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="fallback">
+      <h1>AgentForce AI Discovery Tool</h1>
+      <div class="loader"></div>
+      <p>Loading the application...</p>
+    </div>
+  </body>
+</html>
